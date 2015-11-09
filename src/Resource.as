@@ -5,5 +5,6 @@ package {
 	public final class Resource {
 		[Embed(source="../Resources/button_upState.png")] public static const RS_Button_UpState:Class;
 		[Embed(source="../Resources/button_pressed.png")] public static const RS_Button_Pressed:Class;
+		[Embed(source="../Resources/textedit.png")] public static const RS_TEXT_EDIT:Class;
 	}
 }
