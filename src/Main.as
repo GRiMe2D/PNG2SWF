@@ -209,7 +209,7 @@ package {
 			const width:Number = Number(widthInput.value);
 			const height:Number = Number(heightInput.value);
 			const frames:Number = Number(framesInput.value);
-			const bitmapData:BitmapData = new BitmapData(width, height);
+			const bitmapData:BitmapData = new BitmapData(width, height, true, 0);
 			bitmapData.draw(swfLoader.content);
 
 			this.renderedBitmaps.insertAt(this.renderedBitmaps.length, bitmapData);
