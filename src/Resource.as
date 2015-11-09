@@ -6,5 +6,6 @@ package {
 		[Embed(source="../Resources/button_upState.png")] public static const RS_Button_UpState:Class;
 		[Embed(source="../Resources/button_pressed.png")] public static const RS_Button_Pressed:Class;
 		[Embed(source="../Resources/textedit.png")] public static const RS_TEXT_EDIT:Class;
+		[Embed(source="../Resources/progress.png")] public static const RS_PROGRESS_BAR:Class;
 	}
 }

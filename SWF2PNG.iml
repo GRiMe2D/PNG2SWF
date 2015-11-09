@@ -7,7 +7,32 @@
           <sdk name="AIRSDK19" />
         </dependencies>
         <compiler-options />
-        <packaging-air-desktop package-file-name="Main" />
+        <packaging-air-desktop use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/Main-app.xml" package-file-name="PNG2SWF">
+          <files-to-package>
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/icon-100.png" path-in-package="icon-100.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/icon-1024.png" path-in-package="icon-1024.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/icon-114.png" path-in-package="icon-114.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/icon-120.png" path-in-package="icon-120.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/icon-128.png" path-in-package="icon-128.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/icon-144.png" path-in-package="icon-144.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/icon-152.png" path-in-package="icon-152.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/icon-16.png" path-in-package="icon-16.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/icon-29.png" path-in-package="icon-29.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/icon-32.png" path-in-package="icon-32.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/icon-36.png" path-in-package="icon-36.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/icon-40.png" path-in-package="icon-40.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/icon-48.png" path-in-package="icon-48.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/icon-50.png" path-in-package="icon-50.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/icon-512.png" path-in-package="icon-512.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/icon-57.png" path-in-package="icon-57.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/icon-58.png" path-in-package="icon-58.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/icon-60.png" path-in-package="icon-60.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/icon-72.png" path-in-package="icon-72.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/icon-76.png" path-in-package="icon-76.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/icon-80.png" path-in-package="icon-80.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/icon-96.png" path-in-package="icon-96.png" />
+          </files-to-package>
+        </packaging-air-desktop>
         <packaging-android />
         <packaging-ios />
       </configuration>
