@@ -1,13 +1,31 @@
+//	PNG2SWF - Making PNG sequence from SWF file
+//	Copyright (C) 2025  Shakhzod Ikromov (aka GRiM2D)
+//
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either version 2
+//	of the License, or (at your option) any later version.
+//
+//			This program is distributed in the hope that it will be useful,
+//			but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+//
+//			You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+//
+//	aabbcc.double@gmail.com
+
+
 package {
 
-	import flash.display.Bitmap;
 	import flash.display.BitmapData;
 	import flash.display.Loader;
 	import flash.display.PNGEncoderOptions;
 	import flash.display.Sprite;
 	import flash.display.StageAlign;
 	import flash.display.StageScaleMode;
-	import flash.events.BrowserInvokeEvent;
 	import flash.events.Event;
 	import flash.events.MouseEvent;
 	import flash.filesystem.File;
@@ -18,7 +36,6 @@ package {
 	import flash.net.FileFilter;
 	import flash.net.FileReference;
 	import flash.system.LoaderContext;
-	import flash.utils.ByteArray;
 	import flash.utils.ByteArray;
 
 	public final class Main extends Sprite {
@@ -266,7 +283,7 @@ final class Button extends SimpleButton {
 
 	public function Button(label:String = "") {
 		super();
-		this._label = label;
+		this.label = label;
 		this.validate();
 	}
 
